@@ -1,0 +1,143 @@
+
+/* TIPS GENERATOR CSS */
+#tg {
+    background: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* LEGEND BACKGROUND COLOR*/
+
+.legend918KISS {
+    background-color: rgba(96, 62, 168, 0.8);
+}
+
+.legend918KISS:hover {
+    background-color: rgba(96, 62, 168, 1);
+    cursor: pointer;
+}
+
+.legendMEGA888 {
+    background-color:rgba(243, 156, 18, 0.8);
+}
+
+.legendMEGA888:hover {
+    background-color:rgba(243, 156, 18, 1);
+    cursor: pointer;
+}
+
+.legendPUSSY888 {
+    background-color: rgba(60, 141, 188, 0.8);
+}
+
+.legendPUSSY888:hover {
+    background-color: rgba(60, 141, 188, 1);
+    cursor: pointer;
+}
+
+.legendXE88 {
+    background-color: rgba(0, 166, 90, 0.8);
+}
+
+.legendXE88:hover {
+    background-color: rgba(0, 166, 90, 1);
+    cursor: pointer;
+}
+
+/* MAIN */
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
+
+fieldset {
+    background-image: linear-gradient(to right, grey, lightgrey);
+    width: 195px;
+    padding: 0;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 2px auto 0 auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+legend {
+    color: white;
+    font-weight: 700;
+    padding: 0 4px;
+    border: 3px solid black;
+    border-radius: 3px;
+    margin-bottom: 2px;
+    text-align: center;
+    width: 90px;
+}
+
+.counter {
+    background-color: white;
+    width: 45px;
+    height: 14px;
+    padding: 1px;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    margin-bottom: 2px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.counter span {
+    color: red;
+    font-weight: 700;
+    text-align: center;
+}
+
+.counter #c1 {
+    padding: 0 3px;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
+textarea {
+    background-color: rgba(80, 80, 80, 1);
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 12.9px;
+    font-weight: 500;
+    width: 95%;
+    height: 102px;
+    border: 3px solid black;
+    border-radius: 8px;
+    display: block;
+    resize: none;
+}
+
+.reroll {
+    background-color: rgba(245, 224, 80, 0.6);
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 3px;
+}
+.reroll:hover {
+    background-color: rgba(245, 224, 80, 1);
+}
+
+.btn-bottom {
+    display: flex;
+    align-items: center;
+}
+            
+.btn-bottom input {
+    height: 21px;
+    width: 50.82px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+            
